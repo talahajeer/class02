@@ -118,28 +118,54 @@ if (qu6 == 95) {
         // console.log(qu6.toLowerCase());    
     }
 }
+
+// if (visitedCoun.includes(qu7.toLowerCase())) {
+//     alert("You are correct " + userName);
+//     score++;
+//     // console.log(qu7.toLowerCase());
+// } else {
+//     for (let i = 0; (i < 6) && (!visitedCoun.includes(qu7.toLowerCase())); i++) {
+//         qu7 = prompt("Try Again " + userName);
+//     }
+//     if (visitedCoun.includes(qu7.toLowerCase())) {
+//         alert("You are correct " + userName);
+//         score++;
+//         // console.log(qu7.toLowerCase());
+//     } else {
+//         prompt("Sorry Your out of attepmts the correct answer is " + visitedCoun);
+//         // console.log(qu7.toLowerCase());
+//     }
+
+// }
+
 let visitedCoun = ["turkey", "malisia", "egypt", "lebanon"];
-
-let qu7 = prompt("Give it a guess, What countries I've been to?");
-
-if (visitedCoun.includes(qu7.toLowerCase())) {
-    alert("You are correct " + userName);
-    score++;
-    // console.log(qu7.toLowerCase());
-} else {
-    for (let i = 0; (i < 6) && (!visitedCoun.includes(qu7.toLowerCase())); i++) {
+let correct = 0;
+for (let index = 0; (index < 6); index++) {
+    let qu7;
+    if (index == 0) {
+        qu7 = prompt("Give it a guess, What countries I've been to?");
+    } else {
         qu7 = prompt("Try Again " + userName);
     }
-    if (visitedCoun.includes(qu7.toLowerCase())) {
-        alert("You are correct " + userName);
-        score++;
-        // console.log(qu7.toLowerCase());
-    } else {
-        prompt("Sorry Your out of attepmts the correct answer is " + visitedCoun);
-        // console.log(qu7.toLowerCase());
+
+    for (let i = 0; i < visitedCoun.length; i++) {
+        if (qu7 === visitedCoun[i]) {
+            correct = 1;
+        }
     }
+    if (correct == 1)
+        break;
 
 }
+if (correct == 1) {
+    alert("You are correct " + userName);
+    score++;
+} else {
+    prompt("Sorry Your out of attepmts the correct answer is " + visitedCoun);
+}
+
+
+// console.log(qu7.toLowerCase());
 
 alert("well done your score is " + score + " out of 7");
 // console.log(score);
