@@ -3,12 +3,12 @@ body{
     background-image: url("../img/why-study-architecture_0.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-}
+    }
 header h1{
     padding: 60px;
     text-align: center;
     color: rgb(71, 0, 50);
-    background-color: #ffffff67;
+    background-color: #ffffffa9;
 }
 #headBio h1{
     text-size-adjust: 20px;
@@ -17,7 +17,7 @@ header h1{
     color: rgb(33, 0, 94);
 }
 #bodyBio{
-    background-color: rgba(20, 173, 220, 0.267);
+    background-color: rgba(20, 173, 220, 0.459);
     padding: 10px;
 }
 #education h1{
@@ -26,10 +26,14 @@ header h1{
     text-align: left;
     color: rgb(33, 0, 94);
 }
-body img{
-    float: right;
-}
+
 #experience h1{
+    text-size-adjust: 20px;
+    padding: 20px;  
+    text-align: left;
+    color: rgb(33, 0, 94);
+}
+#topTen h1{
     text-size-adjust: 20px;
     padding: 20px;  
     text-align: left;
