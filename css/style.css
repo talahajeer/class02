@@ -1,43 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei&family=Pangolin&family=Stalinist+One&display=swap');
 body{
     background-color: rgba(220, 20, 60, 0.39);
     background-image: url("../img/why-study-architecture_0.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    position: static;
     }
 header h1{
     padding: 60px;
     text-align: center;
     color: rgb(71, 0, 50);
     background-color: #ffffffa9;
+    position : fixed;
+    left: 50px;
+    /* font-family: 'Hanalei', cursive; */
+    font-family: 'Stalinist One', cursive;
 }
 #headBio h1{
-    text-size-adjust: 20px;
-    padding: 20px;  
+    /* padding: 20px;   */
     text-align: left;
-    color: rgb(33, 0, 94);
-}
-#bodyBio{
-    background-color: rgba(20, 173, 220, 0.459);
-    padding: 10px;
+    color: rgb(0, 0, 0);
+    background-color: #d6f33494;
+    font-family: 'Stalinist One', cursive;
 }
 #education h1{
-    text-size-adjust: 20px;
-    padding: 20px;  
+    /* padding: 20px;   */
     text-align: left;
-    color: rgb(33, 0, 94);
+    color: rgb(0, 0, 0);
+    background-color: #d6f33494;
+    font-family: 'Stalinist One', cursive;
 }
 
 #experience h1{
-    text-size-adjust: 20px;
-    padding: 20px;  
+    /* padding: 20px;   */
     text-align: left;
-    color: rgb(33, 0, 94);
+    color: rgb(0, 0, 0);
+    background-color: #d6f33494;
+    font-family: 'Stalinist One', cursive;
 }
 #topTen h1{
-    text-size-adjust: 20px;
-    padding: 20px;  
+    /* padding: 20px;   */
     text-align: left;
-    color: rgb(33, 0, 94);
+    background-color: #d6f33494;
+    color: rgb(0, 0, 0);
 }
 footer{
     background-color: palegreen;
