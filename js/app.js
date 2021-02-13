@@ -2,7 +2,7 @@
 
 let score = 0;
 let userName = prompt("What's your name?");
-// console.log(userName);
+console.log(userName);
 alert("Welcome to our website " + userName + " How about you know me better");
 
 // switch checks the variable with many check cases
@@ -128,24 +128,6 @@ if (qu6 == 95) {
 }
 }sixthQ();
 
-// if (visitedCoun.includes(qu7.toLowerCase())) {
-//     alert("You are correct " + userName);
-//     score++;
-//     // console.log(qu7.toLowerCase());
-// } else {
-//     for (let i = 0; (i < 6) && (!visitedCoun.includes(qu7.toLowerCase())); i++) {
-//         qu7 = prompt("Try Again " + userName);
-//     }
-//     if (visitedCoun.includes(qu7.toLowerCase())) {
-//         alert("You are correct " + userName);
-//         score++;
-//         // console.log(qu7.toLowerCase());
-//     } else {
-//         prompt("Sorry Your out of attepmts the correct answer is " + visitedCoun);
-//         // console.log(qu7.toLowerCase());
-//     }
-
-// }
 function sevenQ(){
 let visitedCoun = ["turkey", "malisia", "egypt", "lebanon"];
 let correct = 0;
